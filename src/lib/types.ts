@@ -30,3 +30,8 @@ export interface DispatchEvents {
     pixels: CropArea
   }
 }
+
+export interface cropData {
+  percent: CropArea
+  pixels: CropArea
+}
